@@ -180,7 +180,7 @@ body::before {
 }
 
 .credit:hover {
-    color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 1);
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -222,7 +222,7 @@ body::before {
     }
     100% {
         opacity: 0;
-        transform: translateY(-100px) translateX(${Math.random() * 100 - 50}px) scale(0.5);
+        transform: translateY(-100px) scale(0.5);
     }
 }
 
